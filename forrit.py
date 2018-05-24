@@ -8,4 +8,4 @@ def index():
 def server_static(filename):
     return static_file(filename, root='./img')
 
-run(host="0.0.0.0", port=os.environ.get('PORT')
+run(host="0.0.0.0", port=os.environ.get('PORT'))
